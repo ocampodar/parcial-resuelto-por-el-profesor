@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+			<!--/estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de /estilos-->
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="cinco.js"></script>
+        <!--Final de Lógica-Programación -->
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+	<body>
+
+<div class=" animated bounceInRight header">
+     <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 	
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+  </div>
+
+  <div class="col-6 col-s-9">
+   	<form id="FormIngreso" class=" animated bounceInLeft">
+	   	<h1>Ingrese datos </h1>
+	   
+	   	<label>Continente</label>
+	   	<select id="Continente">
+	   		<option>América</option>
+	   		<option>Asia</option>
+	   		<option>Europa</option>
+	   		<option>África</option>
+	   		<option>Oceanía</option>
+	   	</select>
+
+
+		<label>Medio de Pago</label>
+		<select id="MedioDePago">
+			<option>Débito</option>
+			<option>Efectivo</option>
+			<option>MercadoPago</option>
+		</select>
+
+	   	<a  class="MiBotonUTNnav" onclick="mostrar()" >Mostrar  informaci&oacute;n</a>
+	 </form>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside animated bounceInUp">
+     <h2>Enunciado:</h2>
+						<h3>
+					Bienvenidos (SOLO SWITCH).
+        </br>una empresa de viajes le solicita ingresar que continente le gustaria visitar
+    	</br>y la cantidad de dias , la oferta dice que por día se cobra $100 , que se puede pagar de todas las maneras
+        </br>Si es america tiene un 50% de descuento y si ademas paga por debito se le agrega un 10% mas de descuento
+        </br>Si es africa tiene un 60% de descuento y si ademas paga por mercadoPago o efectivo se le agrega un 15% mas de descuento
+        </br>Si es europa tiene un 20% de descuento y si ademas paga por debito se le agrega un 15% , por mercadoPago un 10% y cualquier otro medio 5%
+        </br>cualquier otro continente tiene un recargo del 20%
+    	</br>Mostrar precio sin descuento, porcentaje de descuento y precio con descuento con un alert.
+ 
+      
+
+				</h3>
+     
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  
+  	
+  	<p>Curso de ingreso UTN FRA</p>
+</div>
+
+</body>
+</html>
